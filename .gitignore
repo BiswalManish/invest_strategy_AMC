@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+src/__pycache__
+.DS_Store
+data/.DS_Store
+reports/.DS_Store
+reports/Plots/.DS_Store
