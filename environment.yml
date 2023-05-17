@@ -1,8 +1,9 @@
-name: data_science_env1
+name: ds_env1
 channels:
   - defaults
 dependencies:
   - anyio=3.5.0=py311hca03da5_0
+  - appdirs=1.4.4=pyhd3eb1b0_0
   - appnope=0.1.2=py311hca03da5_1001
   - argon2-cffi=21.3.0=pyhd3eb1b0_0
   - argon2-cffi-bindings=21.2.0=py311h80987f9_0
@@ -18,23 +19,28 @@ dependencies:
   - brotli-bin=1.0.9=h1a28f6b_7
   - brotlipy=0.7.0=py311h80987f9_1002
   - bzip2=1.0.8=h620ffc9_4
+  - c-ares=1.19.0=h80987f9_0
   - ca-certificates=2023.01.10=hca03da5_0
-  - certifi=2022.12.7=py311hca03da5_0
+  - certifi=2023.5.7=py311hca03da5_0
   - cffi=1.15.1=py311h80987f9_3
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - comm=0.1.2=py311hca03da5_0
   - contourpy=1.0.5=py311h48ca7d4_0
   - cryptography=39.0.1=py311h834c97f_0
+  - curl=7.88.1=h80987f9_0
   - cycler=0.11.0=pyhd3eb1b0_0
   - debugpy=1.5.1=py311h313beb8_0
   - decorator=5.1.1=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
   - entrypoints=0.4=py311hca03da5_0
   - executing=0.8.3=pyhd3eb1b0_0
+  - expat=2.4.9=hc377ac9_0
   - fonttools=4.25.0=pyhd3eb1b0_0
   - freetype=2.12.1=h1192e45_0
+  - gdbm=1.18=h8fe7016_4
   - gettext=0.21.0=h13f89a0_1
   - giflib=5.2.1=h80987f9_3
+  - git=2.34.1=pl5340h646bd76_0
   - glib=2.69.1=h514c7bf_2
   - gst-plugins-base=1.14.1=h313beb8_1
   - gstreamer=1.14.1=h80987f9_1
@@ -46,6 +52,7 @@ dependencies:
   - ipywidgets=8.0.4=py311hca03da5_0
   - jedi=0.18.1=py311hca03da5_1
   - jinja2=3.1.2=py311hca03da5_0
+  - joblib=1.1.1=py311hca03da5_0
   - jpeg=9e=h80987f9_1
   - json5=0.9.6=pyhd3eb1b0_0
   - jsonschema=4.17.3=py311hca03da5_0
@@ -67,18 +74,22 @@ dependencies:
   - libbrotlienc=1.0.9=h1a28f6b_7
   - libclang=14.0.6=default_h1b80db6_1
   - libclang13=14.0.6=default_h24352ff_1
+  - libcurl=7.88.1=h0f1d93c_0
   - libcxx=14.0.6=h848a8c0_0
   - libdeflate=1.17=h80987f9_0
   - libedit=3.1.20221030=h80987f9_0
-  - libffi=3.4.2=hca03da5_6
+  - libev=4.33=h1a28f6b_1
+  - libffi=3.4.4=hca03da5_0
   - libgfortran=5.0.0=11_3_0_hca03da5_28
   - libgfortran5=11.3.0=h009349e_28
   - libiconv=1.16=h1a28f6b_2
   - libllvm14=14.0.6=h7ec7a93_3
+  - libnghttp2=1.46.0=h95c9599_0
   - libopenblas=0.3.21=h269037a_0
   - libpng=1.6.39=h80987f9_0
   - libpq=12.9=h65cfe13_3
   - libsodium=1.0.18=h1a28f6b_0
+  - libssh2=1.10.0=hf27765b_0
   - libtiff=4.5.0=h313beb8_2
   - libwebp=1.2.4=ha3663a8_1
   - libwebp-base=1.2.4=h80987f9_1
@@ -112,12 +123,15 @@ dependencies:
   - pandocfilters=1.5.0=pyhd3eb1b0_0
   - parso=0.8.3=pyhd3eb1b0_0
   - pcre=8.45=hc377ac9_0
+  - pcre2=10.37=h37e8eca_1
+  - perl=5.34.0=h1a28f6b_2
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=9.4.0=py311h313beb8_0
   - pip=23.0.1=py311hca03da5_0
   - platformdirs=2.5.2=py311hca03da5_0
   - ply=3.11=py311hca03da5_0
+  - pooch=1.4.0=pyhd3eb1b0_0
   - prometheus_client=0.14.1=py311hca03da5_0
   - prompt-toolkit=3.0.36=py311hca03da5_0
   - prompt_toolkit=3.0.36=hd3eb1b0_0
@@ -125,7 +139,7 @@ dependencies:
   - ptyprocess=0.7.0=pyhd3eb1b0_2
   - pure_eval=0.2.2=pyhd3eb1b0_0
   - pycparser=2.21=pyhd3eb1b0_0
-  - pygments=2.11.2=pyhd3eb1b0_0
+  - pygments=2.15.1=py311hca03da5_0
   - pyopenssl=23.0.0=py311hca03da5_0
   - pyparsing=3.0.9=py311hca03da5_0
   - pyqt=5.15.7=py311h313beb8_0
@@ -144,6 +158,8 @@ dependencies:
   - qtwebkit=5.212=h19f419d_5
   - readline=8.2=h1a28f6b_0
   - requests=2.29.0=py311hca03da5_0
+  - scikit-learn=1.2.2=py311h313beb8_0
+  - scipy=1.10.1=py311hc76d9b0_1
   - seaborn=0.12.2=py311hca03da5_0
   - send2trash=1.8.0=pyhd3eb1b0_1
   - setuptools=66.0.0=py311hca03da5_0
@@ -154,6 +170,7 @@ dependencies:
   - sqlite=3.41.2=h80987f9_0
   - stack_data=0.2.0=pyhd3eb1b0_0
   - terminado=0.17.1=py311hca03da5_0
+  - threadpoolctl=2.2.0=pyh0d69192_0
   - tinycss2=1.2.1=py311hca03da5_0
   - tk=8.6.12=hb8d0fd4_0
   - toml=0.10.2=pyhd3eb1b0_0
@@ -173,15 +190,4 @@ dependencies:
   - zeromq=4.3.4=hc377ac9_0
   - zlib=1.2.13=h5a0b063_0
   - zstd=1.5.5=hd90d995_0
-  - pip:
-      - chardet==5.1.0
-      - joblib==1.2.0
-      - jupytext==1.14.5
-      - markdown-it-py==2.2.0
-      - mdit-py-plugins==0.3.5
-      - mdurl==0.1.2
-      - pyyaml==6.0
-      - scikit-learn==1.2.2
-      - scipy==1.10.1
-      - threadpoolctl==3.1.0
-prefix: /Users/manish/miniconda3/envs/data_science_env1
+prefix: /Users/manish/miniconda3/envs/ds_env1
